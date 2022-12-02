@@ -2,13 +2,13 @@
 
 ## Overview of the Analysis
 
-Credit risk poses a classification problem that's inherently imbalanced. This is beacuse haelthy loans easily outnumber risky loans. 
+Credit risk poses a classification problem that's inherently imbalanced. This is because healthy loans easily outnumber risky loans. 
 The purpose of this analysis is to help a peer-to-peer lending services company build a model that can identify the creditworthiness
-of borrowers. The dataset used was from a csv file showing the historial lending activity from the company. The variable that we 
+of borrowers. The dataset used was from a csv file showing the historical lending activity from the company. The variable that we 
 were trying to predict was the loan status using a list of feature or characteristics of different loans including loan size and
 interest rate. We imported our dependencies and libraries and loaded the csv file into a DataFrame. We set the features from the
 dataset into the X variable and the loan status of each loan as the y variable. Then we check the balance of the variables and 
-split the data into traininfg and testing datasets. We use the Logistic Regression Model to predict the loan statuses using 
+split the data into training and testing datasets. We use the Logistic Regression Model to predict the loan statuses using 
 the original data and by oversampling the data. Finally, we evaluated each model's performance by calculating the accuracy score
 of the model and by creating a confusion matrix and classification report, by using 0["healthy loan"] and 1["high-risk loan"] 
 as the results.
